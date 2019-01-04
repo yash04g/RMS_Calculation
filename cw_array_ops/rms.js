@@ -6,7 +6,7 @@ window.onload = function (){
     let rmsPos = document.getElementById('rmsPos')
 
     calculatebtn.onclick = function(){
-        let arr = inpstr.innerText.split(',')
+        let arr = inpstr.value.split(',')
         let arr2 = arr.map(function (val) {
             return parseInt(val)
         })
